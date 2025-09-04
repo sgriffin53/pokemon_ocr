@@ -87,5 +87,5 @@ def get_grade_ocr(source, debug_dir="debug_crops", scale=0.5):
     return None
 
 # Example usage
-grade = process_card_image("card.jpg")  # local file
-# grade = process_card_image("https://example.com/card.jpg")  # URL
+grade = get_grade_ocr("card.jpg")  # local file
+# grade = get_grade_ocr("https://example.com/card.jpg")  # URL
